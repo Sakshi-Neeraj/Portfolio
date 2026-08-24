@@ -327,26 +327,18 @@ section {
 .hero-badge {
   display: inline-flex;
   align-items: center;
-  gap: 0.55rem;
-  padding: 0.4rem 1rem;
+  justify-content: center;
+  padding: 0.45rem 1.25rem;
   background: rgba(0, 255, 136, 0.07);
   border: 1px solid rgba(0, 255, 136, 0.25);
   border-radius: 50px;
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   color: var(--accent-green);
   margin-bottom: 1.25rem;
   backdrop-filter: blur(8px);
   opacity: 0;
   animation: fadeUp 0.6s ease forwards 0.1s;
-}
-
-.status-dot {
-  width: 8px;
-  height: 8px;
-  background: var(--accent-green);
-  border-radius: 50%;
-  position: relative;
 }
 
 .hero-greeting {
